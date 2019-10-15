@@ -1,5 +1,5 @@
 import React from 'react';
-import CurrentWeather from './CurrentWeather';
+import CurrentWeather from './Components/molecules/CurrentWeather';
 
 function App() {
   return (
