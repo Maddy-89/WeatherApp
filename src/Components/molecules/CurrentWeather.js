@@ -1,10 +1,12 @@
 import React from 'react';
+import CurrentCity from '../atoms/CurrentCity';
+import CurrentTemperature from '../atoms/CurrentTemperature';
 
-const CurrentWeather = ({city, temperature, ...props}) => {
+const CurrentWeather = () => {
     return (
         <div>
-            <div>{city}</div>
-            <div>{temperature}</div>
+            <CurrentCity/>  
+            <CurrentTemperature/>
         </div>
     );
 };

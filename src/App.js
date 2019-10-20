@@ -1,14 +1,15 @@
 import React from 'react';
-import CurrentWeather from './Components/molecules/CurrentWeather';
+import ComplaintPage from './pages/ComplaintPage';
+import WeatherPage from './pages/WeatherPage';
+
 
 function App() {
   return (
-    <div className="App">
-      <CurrentWeather city="London" temperature="13" />
-      <CurrentWeather city="Perth" temperature="34" />
-      <CurrentWeather city="Sydney" temperature="40" /> 
-    </div>
+    <>
+      <WeatherPage />
+      <ComplaintPage />
+    </>
   );
-}
+};
 
 export default App;
