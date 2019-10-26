@@ -6,7 +6,7 @@ const DailyWeatherItem = ({date, icon, list, maxTemp, minTemp, ...props}) => {
     return (
         <div>
             <h3>{date}</h3>
-            <WeatherIcon Icon={icon}/>
+            <WeatherIcon icon={icon}/>
             <div>{maxTemp}</div>
             <div>{minTemp}</div>
             <HourlyWeather list={list}/>    
