@@ -1,7 +1,7 @@
 import React from 'react'
 
-const CurrentTemperature = () => {
-    return<div>22</div>;
+const CurrentTemperature = ({Temperature, ...props}) => {
+    return<div>{Temperature}</div>;
 };
 
 export default CurrentTemperature

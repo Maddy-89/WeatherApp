@@ -8,12 +8,9 @@ const ComplaintForm = props => {
         <div>
             <form>
                 <Label>Make a Complaint</Label>
-                <Label>Your Name</Label>
-                <FormField type="text" />
-                <Label>Email</Label>
-                <FormField type="text" />
-                <Label>ComplaintForm</Label>
-                <FormField type="textarea" />
+                <FormField type="text" name="name" label="Name" />
+                <FormField type="text" name="email" label="Email" />
+                <FormField type="text" name="message" label="Message" />
                 <Button>Submit</Button>
             </form>
         </div>

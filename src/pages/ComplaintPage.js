@@ -3,15 +3,20 @@ import TextLink from '../Components/atoms/TextLink';
 import WeatherPerson from '../Components/molecules/WeatherPerson';
 import ComplaintForm from '../Components/organisms/ComplaintForm';
 import PageTemplate from '../Components/templates/PageTemplate';
+import { CURRENT_WEATHER } from '../data/mockWeather';
 
-const ComplaintPage = () => {
-    return (
-        <PageTemplate>
-            <TextLink>I Regret This Take Me Back</TextLink>
-            <WeatherPerson/>
-            <ComplaintForm/>
-        </PageTemplate>
-    );
+const WeatherPage = () => {
+  return (
+    <PageTemplate
+      city={CURRENT_WEATHER.name}
+      temperature={CURRENT_WEATHER.main.temp}
+      changeCity={() => console.log('Change the city!')}
+    >
+      <TextLink>I changed my mind!</TextLink>
+      <WeatherPerson />
+      <ComplaintForm />
+    </PageTemplate>
+  );
 };
 
-export default ComplaintPage
+export default WeatherPage;
