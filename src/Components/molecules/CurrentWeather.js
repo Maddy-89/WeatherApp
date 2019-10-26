@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import CurrentCity from '../atoms/CurrentCity';
 import CurrentTemperature from '../atoms/CurrentTemperature';
 import TextLink from '../atoms/TextLink';
