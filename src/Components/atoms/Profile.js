@@ -4,7 +4,7 @@ const Profile = ({...props}) => {
     return (
     <div>
         <h2>Gail Weathers</h2>
-        <p>Hello</p>
+        <p></p>
     </div>
     );
 };
