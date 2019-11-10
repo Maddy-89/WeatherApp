@@ -3,7 +3,7 @@ import './TextLink.css'
 
 const TextLink = ({ onButtonClick, ...props }) => {
     return (
-           <button className='TextLink' onClick={onButtonClick}> {props.children}</button> 
+           <div className='TextLink' onClick={onButtonClick}> {props.children}</div> 
     )
 }
 

@@ -1,7 +1,10 @@
 .TextLink{
     color: #ffffff;
-    background-color: #200552;
     border: none;
     text-decoration: underline;
     align-self: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
 }

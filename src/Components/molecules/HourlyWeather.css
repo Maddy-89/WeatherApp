@@ -1,3 +1,4 @@
 .HourlyWeather{
     display:flex;
+    justify-content: space-between;
 }

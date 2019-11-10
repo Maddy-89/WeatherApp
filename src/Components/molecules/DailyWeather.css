@@ -1,0 +1,8 @@
+.DWItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DWItems {
+    display: flex;
+}
