@@ -1,7 +1,9 @@
 .Button {
-width:175pt;
-height:25pt;
+padding: 5px 20px;
+display: block;
 background-color: #ED61AB;
 color: #ffffff;
 border: none;
+font-size: 14px;
+border-radius: 5px;
 }

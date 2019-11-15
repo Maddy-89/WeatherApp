@@ -16,7 +16,6 @@ const CurrentWeather = ({city, temperature, onTextLinkClick, ...props}) => {
             <CurrentCity city={city} />
             <TextLink onButtonClick={onTextLinkClick}>Change City</TextLink>
             <CurrentTemperature temperature={temperature} />
-            <div class="color-divider"></div>
         </div>
         </div>
     </>        
